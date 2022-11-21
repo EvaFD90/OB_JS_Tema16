@@ -1,0 +1,22 @@
+.section {
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.paragraph {
+    background-color: white;
+    padding: 1rem;
+}
+
+.paragraph.dragging {
+    opacity: 0.3;
+}
+
+.ghost-image {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    left: -100vw;
+}
